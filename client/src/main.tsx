@@ -1,4 +1,11 @@
-import React from "react";
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import App from './App'
 
-ReactDOM.render(<h1>Hello</h1>, document.querySelector("#root"));
+ReactDOM.render(
+	<Router>
+		<App />
+	</Router>,
+	document.querySelector('#root')
+)

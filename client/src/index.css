@@ -1,0 +1,29 @@
+:root {
+  --dark: #24252D;
+  --white: #FFFFFF;
+  --gray1: #E3E1E3;
+  --gray2: #888888;
+  --gray3: #4F4F4F;
+  --black1: #2D2E36;
+  --black2: #1B1A21;
+  --black3: #E3E1E3;
+  --black4: #24252D;
+  --blueViolet: linear-gradient(90deg, #0ACFFE 0%, #495AFF 100%);
+}
+
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
